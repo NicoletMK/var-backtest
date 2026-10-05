@@ -1,0 +1,17 @@
+model,confidence,period,days,exceptions,expected
+historical,0.99,"COVID crash (Feb 20 - Apr 30, 2020)",50,9,0.5000000000000004
+historical,0.99,2022 rate shock (Jan - Oct 2022),209,6,2.0900000000000016
+normal,0.99,"COVID crash (Feb 20 - Apr 30, 2020)",50,9,0.5000000000000004
+normal,0.99,2022 rate shock (Jan - Oct 2022),209,10,2.0900000000000016
+ewma,0.99,"COVID crash (Feb 20 - Apr 30, 2020)",50,6,0.5000000000000004
+ewma,0.99,2022 rate shock (Jan - Oct 2022),209,7,2.0900000000000016
+garch_t,0.99,"COVID crash (Feb 20 - Apr 30, 2020)",50,6,0.5000000000000004
+garch_t,0.99,2022 rate shock (Jan - Oct 2022),209,5,2.0900000000000016
+historical,0.95,"COVID crash (Feb 20 - Apr 30, 2020)",50,16,2.500000000000002
+historical,0.95,2022 rate shock (Jan - Oct 2022),209,28,10.45000000000001
+normal,0.95,"COVID crash (Feb 20 - Apr 30, 2020)",50,11,2.500000000000002
+normal,0.95,2022 rate shock (Jan - Oct 2022),209,31,10.45000000000001
+ewma,0.95,"COVID crash (Feb 20 - Apr 30, 2020)",50,8,2.500000000000002
+ewma,0.95,2022 rate shock (Jan - Oct 2022),209,14,10.45000000000001
+garch_t,0.95,"COVID crash (Feb 20 - Apr 30, 2020)",50,8,2.500000000000002
+garch_t,0.95,2022 rate shock (Jan - Oct 2022),209,21,10.45000000000001
